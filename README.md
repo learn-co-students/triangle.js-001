@@ -4,10 +4,6 @@ tags: geometry, oo
 ---
 
 # Triangle JS Edition
-## Getting Started
-
-Run `npm install`
-
 
 ## Background
 
