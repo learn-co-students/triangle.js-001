@@ -1,6 +1,7 @@
 ---
 languages: javascript
 tags: geometry, oo
+resources: 2
 ---
 
 # Triangle JS Edition
@@ -28,5 +29,5 @@ ironboard -b
 ```
 
 ## Resources
-*[Throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
-*[Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
+* [Throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+* [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
