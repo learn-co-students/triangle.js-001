@@ -1,9 +1,3 @@
----
-languages: javascript
-tags: geometry, oo
-resources: 2
----
-
 # Triangle JS Edition
 Make a `Triangle` constructor function that is used to make new triangle instances.  If an instance is created with impossible sides then it `throw` an error.  If not a triangle should know what kind of triangle it is. Keep in mind that the sum of the lengths of any two sides of a triangle always exceeds the length of the third side, a principle known as the _triangle inequality_.
 
