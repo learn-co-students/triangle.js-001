@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="15" errors="0" failures="0" time="0.013" timestamp="2015-11-12T13:17:25">
+		<testcase classname="Triangle" name="Legal triangle equilateral triangles have equal sides" time="0.002">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle larger equilateral triangles also have equal sides" time="0">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle isosceles triangles have last two sides equal" time="0.001">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle isosceles trianges have first and last sides equal" time="0">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle isosceles triangles have two first sides equal" time="0.001">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle isosceles triangles have in fact exactly two sides equal" time="0">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle scalene triangles have no equal sides" time="0.001">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle scalene triangles have no equal sides at a larger scale too" time="0">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle scalene triangles have no equal sides in descending order either" time="0">
+		</testcase>
+		<testcase classname="Triangle" name="Legal triangle very small triangles are legal" time="0">
+		</testcase>
+		<testcase classname="Triangle" name="Illegal triangles test triangles with no size are illegal" time="0.001">
+		</testcase>
+		<testcase classname="Triangle" name="Illegal triangles triangles with negative sides are illegal" time="0.001">
+		</testcase>
+		<testcase classname="Triangle" name="Illegal triangles triangles violating triangle inequality are illegal" time="0.001">
+		</testcase>
+		<testcase classname="Triangle" name="Illegal triangles triangles violating triangle inequality are illegal 2" time="0.001">
+		</testcase>
+		<testcase classname="Triangle" name="Illegal triangles triangles violating triangle inequality are illegal 3" time="0">
+		</testcase>
+	</testsuite>
+</testsuites>
+
