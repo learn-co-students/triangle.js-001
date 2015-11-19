@@ -55,23 +55,23 @@ describe('Triangle', function() {
 
   describe('Illegal triangles', function() {
     it('test triangles with no size are illegal', function() {
-      expect(function(){ new Triangle(0,0,0) }).toThrow(new TriangleError());
+      expect(function(){ new Triangle(0,0,0) }).not.toBeDefined();
     });
 
     it('triangles with negative sides are illegal', function() {
-      expect(function(){ new Triangle(3,4,-5) }).toThrow(new TriangleError());
+      expect(function(){ new Triangle(3,4,-5) }).not.toBeDefined();
     });
 
     it('triangles violating triangle inequality are illegal', function() {
-      expect(function(){ new Triangle(1,1,3) }).toThrow(new TriangleError());
+      expect(function(){ new Triangle(1,1,3) }).not.toBeDefined();
     });
 
     it('triangles violating triangle inequality are illegal 2', function() {
-      expect(function(){ new Triangle(2,4,2) }).toThrow(new TriangleError());
+      expect(function(){ new Triangle(2,4,2) }).not.toBeDefined();
     });
 
     it('triangles violating triangle inequality are illegal 3', function() {
-      expect(function(){ new Triangle(7,3,2) }).toThrow(new TriangleError());
+      expect(function(){ new Triangle(7,3,2) }).not.toBeDefined();
     });
   });
 
